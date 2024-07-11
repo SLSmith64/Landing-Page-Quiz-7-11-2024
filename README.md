@@ -4,12 +4,12 @@
 
  ## Clone this repo and make the following changes:
 
-- Import *Roboto* from google fonts and make it the body font
+<!-- - Import *Roboto* from google fonts and make it the body font -->
 
-- Make the navbar and the footer transparent so that the rocket image can be seen. Make sure the text on the navbar can be easily read. The text color should be the following:
- --cf-light: #ebebeb;
+<!-- - Make the navbar and the footer transparent so that the rocket image can be seen. Make sure the text on the navbar can be easily read. The text color should be the following:
+ --cf-light: #ebebeb; -->
 
-- Add the rocket logo to the navbar. Make sure the logo is sized correctly on all break points. Add links for Blog and About.
+<!-- - Add the rocket logo to the navbar. Make sure the logo is sized correctly on all break points. Add links for Blog and About. -->
 
 - Make the rocket landing page image responsive on all break points. The landing page rocket should always be on right third of the horizontal space of the page. The rocket should never be placed underneath the CTA text on any break point. On the portrait mobile breakpoint place the CTA text underneath the image. The rocket should be centered on the small portrait breakpoint.
 

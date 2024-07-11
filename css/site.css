@@ -3,8 +3,10 @@
     --cf-light: #ebebeb;
     --cf-darkblue: #00223d;
     --cf-highlight: #fae100;
-}
 
+    /*Google Fonts */
+     --ss-body-font:  "Roboto", sans-serif;
+}
 
 html,
 body {
@@ -17,6 +19,11 @@ body {
     background-image: url("/img/LandingPage_1920.png");
     background-position: top right;
     background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.logoHeight{
+    height: 50px;
 }
 
 .content {
@@ -26,3 +33,90 @@ body {
 .footer {
     flex-shrink: 0;
 }
+
+/*** Media Queries  ***/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+.mainHeader{
+    background-image: url(/img/LandingPage_768.png);
+    height: 200px;
+}
+    
+.mainWrapper{
+    font-size: 1.6rem;
+}
+
+.mainTitle{
+   line-height:1.6rem;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)  {
+  .mainHeader{
+    background-image: url(/img/HostingPro992.png);
+    height: 300px;
+}
+    
+.mainWrapper{
+    font-size: 1.6rem;
+    width: 47%;
+}
+
+.mainTitle{
+   line-height:1.6rem;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .mainHeader{
+    background-image: url(/img/HostingPro1200.png);
+    height: 400px;
+}
+    
+.mainWrapper{
+    font-size: 2.5rem;
+    width: 50%;
+}
+
+.mainTitle{
+   line-height: 2.5rem;
+}
+
+} 
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ .mainHeader{
+    background-image: url(/img/HostingPro2560.png);
+    height: 500px;
+}
+    
+.mainWrapper{
+    font-size: 2.8rem;
+    width: 45%;
+}
+
+.mainTitle{
+   line-height: 2.8rem;
+}
+
+} 
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .mainWrapper{
+    font-size: 3.0rem;
+    width: 50%;
+}
+
+.mainTitle{
+   line-height: 3.0rem;
+}
+
+} 
