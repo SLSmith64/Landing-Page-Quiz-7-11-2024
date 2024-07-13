@@ -4,12 +4,23 @@
     --cf-darkblue: #00223d;
     --cf-highlight: #fae100;
 
-    /*Google Fonts */
-     --ss-body-font:  "Roboto", sans-serif;
+    /*Google Fonts Quiz Part*/
+    --ss-title-font: "Racing Sans One", sans-serif;
+    --ss-body-font: "Roboto", sans-serif;
+    --ss-subtitle-font: "Fira Sans", sans-serif;
+}
+
+/* Quiz Part */
+main{
+    background-color: var(--cf-darkblue);
+    background-color: transparent;
+    flex: 1 0 auto;
 }
 
 html,
 body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
 }
 
@@ -19,9 +30,23 @@ body {
     background-image: url("/img/LandingPage_1920.png");
     background-position: top right;
     background-repeat: no-repeat;
-    background-color: transparent;
 }
 
+/* Quiz Part */
+.mainTitle{
+    font-family: var(--ss-title-font);
+    color: var(--cf-light);
+    font-size: 4rem;
+}
+
+/* Quiz Part */
+.subTitle{
+    font-family: var(--ss-subtitle-font);
+    color: var(--cf-light); 
+    font-size: 2rem;   
+}
+
+/* Quiz Part */
 .logoHeight{
     height: 50px;
 }
@@ -34,24 +59,8 @@ body {
     flex-shrink: 0;
 }
 
-/*** Media Queries  ***/
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-.mainHeader{
-    background-image: url(/img/LandingPage_768.png);
-    height: 200px;
-}
-    
-.mainWrapper{
-    font-size: 1.6rem;
-}
 
-.mainTitle{
-   line-height:1.6rem;
-}
-
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px)  {
@@ -104,19 +113,6 @@ body {
 
 .mainTitle{
    line-height: 2.8rem;
-}
-
-} 
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    .mainWrapper{
-    font-size: 3.0rem;
-    width: 50%;
-}
-
-.mainTitle{
-   line-height: 3.0rem;
 }
 
 } 
